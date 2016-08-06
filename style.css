@@ -1,17 +1,17 @@
 body {
-    background-color: #16aaaa;
-    color: #D7CEC7;
+    background-color: #414535;
+    color: #F2E3BC;
 }
 
 h1{
     margin-top:0px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #AEB7A7;
+    border-bottom: 1px solid #96BBBB;
 }
 
 h3{
     margin:0px;
-    color: #CED7A7;
+    color: #C19875;
 }
 
 #main {
