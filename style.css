@@ -11,7 +11,7 @@ h1{
 
 h3{
     margin:0px;
-    color: #918985;
+    color: #618985;
 }
 
 #main {
@@ -21,12 +21,12 @@ h3{
 }
 
 a {
-    color: #32763F;
+    color: #98BBBB;
     text-decoration: none;
 }
 
 a:visited {
-    color: #9FC080;
+    color: #618985;
     text-decoration: none;
 }
 
