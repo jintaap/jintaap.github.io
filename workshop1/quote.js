@@ -4,14 +4,10 @@
  * L&T quote generator
  */
 
-var things = ["Music", "Art", "Dance", "Theater", "Math", "Architecture"];
-var programmers = ["musician", "artist", "choreographer", "director", "mathematician", "architect"]
-var castles = ["museums", "bridges", "cities"]
-var exertions = ["effort", "strain", "struggle", "toil", "endeavor", "hard work", "labor"];
-var airs = ["sky", "atmosphere", "heavens", "ether", "wind"];
+var looms = ["Jaquard-loom", "poet", "sculptor", "primadonna"];
+var stuff = ["flowers and leaves", "images and emotions", "figures and statues", "meolodies"];
+var weaves = ["weaves", "evokes", "crafts", "invents", "sings"];
 
-var is = ["is", "is not", "is like", "includes", "excludes", "is beyond",
-	  "extends", "encodes", "represents", "signifies", "consists of"];
 
 function choosei(lst){
     var i = Math.floor(Math.random() * lst.length);
@@ -22,22 +18,18 @@ function choose(lst){
     return lst[choosei(lst)];
 }
 
-var pick = choosei(things);
-var thing = things[pick];
-var programmer = programmers[pick];
-var castles = choose(castles);
-var exertion = choose(exertions);
-var air = choose(airs);
+var pick = choosei(loom);
+var loom = looms[pick];
+var stuff = stuff[pick];
+var weaves = weaves[pick];
 
 var t = document.getElementById("thing").innerHTML = thing;
 var p = document.getElementById("person").innerHTML = programmer + "s";
 var q = document.getElementById("quote");
 
 q.innerHTML =
-    "\"The " + programmer +
-    ", like the poet, works only slightly removed from pure thought-stuff. He builds his " +
-    castles + " in the " + air + ", from " + air + ", creating by " + exertion + " of the imagination.\"" +
-    "\u2014" +  "Fred Brooks, " + programmer;
+	"\"The Analytical Engine" + weaves + "algebraic patterns, just as the" + loom + weaves + stuff.\"";
+
 
 q.innerHTML += "<br><br><br>";
 
