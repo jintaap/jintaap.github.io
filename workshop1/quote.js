@@ -28,7 +28,7 @@ var p = document.getElementById("person").innerHTML = programmer + "s";
 var q = document.getElementById("quote");
 
 q.innerHTML =
-	"\"The Analytical Engine" + weaves + "algebraic patterns, just as the" + loom + weaves + stuff.\"";
+	"\"The Analytical Engine" + weaves + "algebraic patterns, just as the" + loom + weaves + stuff "".\"";
 
 
 q.innerHTML += "<br><br><br>";
