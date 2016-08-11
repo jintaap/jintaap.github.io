@@ -8,7 +8,7 @@ function choosei(){
 }
 
 
-var pick = 1;
+var pick = choosei();
 var loom = looms[pick];
 var flowers = nouns[pick];
 var weaves = verbs[pick];
