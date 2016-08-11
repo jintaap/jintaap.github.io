@@ -1,6 +1,6 @@
-var looms = ["Jaquard-loom", "poet", "sculptor", "primadonna"];
-var nouns = ["flowers and leaves", "images and emotions", "figures and statues", "melodies"];
-var verbs = ["weaves", "evokes", "crafts", "sings"];
+var looms = ["Jaquard-loom", "poet", "sculptor", "singer"];
+var nouns = ["flowers and leaves", "emotions and pathos", "figures and statues", "songs and melodies"];
+var verbs = ["weaves", "evokes", "crafts", "belts"];
 
 function choosei(){
     var i = Math.floor(Math.random() * 4);
@@ -8,7 +8,7 @@ function choosei(){
 }
 
 
-var pick = choosei();
+var pick = 1;
 var loom = looms[pick];
 var flowers = nouns[pick];
 var weaves = verbs[pick];
