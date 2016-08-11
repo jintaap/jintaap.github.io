@@ -23,8 +23,8 @@ var loom = looms[pick];
 var stuff = stuff[pick];
 var weaves = weaves[pick];
 
-var t = document.getElementById("thing").innerHTML = thing;
-var p = document.getElementById("person").innerHTML = programmer + "s";
+var t = document.getElementById("thing").innerHTML = loom;
+var p = document.getElementById("person").innerHTML = loom + "s";
 var q = document.getElementById("quote");
 
 q.innerHTML =
