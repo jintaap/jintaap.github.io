@@ -16,5 +16,5 @@ var weaves = verbs[pick];
 var q = document.getElementById("quote");
 
 q.innerHTML = 
-"\"The Analytical Engine" + weaves + "algebraic patterns, just as the " + loom + " " + weaves + " " + " " + flowers + ".\"";
+"\"The Analytical Engine" + " " + weaves + " " + "algebraic patterns, just as the " + loom + " " + weaves + " " + " " + flowers + ".\"";
 
